@@ -31,8 +31,9 @@ def main() -> None:
 
     # -------------------------
     # TODO (DEMO): Add a quick 'data sanity' check
-    st.write('Rows: {len(df):,}')
-    st.dataframe(df.head(), width="stretch")
+    with st.expander("Data Sanity Check", expanded=False):
+        st.write('Rows: **{len(df):,}** | Columns: ** {df.shape[1]}**')
+        st.dataframe(df.head(), width="stretch")
     # - show row count
     # - show first 5 rows (optional)
     # -------------------------
@@ -53,7 +54,7 @@ def main() -> None:
     # TODO (DEMO): Explain Streamlit re-runs
     st.info(
         "Streamlit reruns the script top-to-bottom every time there is a change in the widget. "
-        "When filters update, the selection changes which caucvses df_f to change.")
+        "When filters update, the selection changes which causes df_f to change.")
     # - changing a widget reruns the script top-to-bottom
     # - df_f changes because selections changes
     # -------------------------
