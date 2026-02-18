@@ -32,7 +32,7 @@ def main() -> None:
     # -------------------------
     # TODO (DEMO): Add a quick 'data sanity' check
     with st.expander("Data Sanity Check", expanded=False):
-        st.write("Rows: **{len(df):,}** | Columns: **{df.shape[1]}**")
+        st.write(f"Rows: **{len(df):,}** | Columns: **{df.shape[1]}**")
         st.dataframe(df.head(5), width="stretch")
     # - show row count
     # - show first 5 rows (optional)
