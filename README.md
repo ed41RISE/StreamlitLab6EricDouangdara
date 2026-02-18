@@ -18,5 +18,9 @@ streamlit run app.py
 
 ## Submission (for students)
 - Streamlit deployed link
+- ## https://applab6ericdouangdara-kcaklunk4hmrjtrkrwmnlb.streamlit.app/
 - GitHub repo link
+- ## https://github.com/ed41RISE/StreamlitLab6EricDouangdara
 - Short README describing audience + tasks
+- 
+## The audience is primarily City managers and city operations faculty who want to monitor customer complaint volume/response timesThe filter allows the user to spot patterns in boroughs, channels, and complaint types to identify potential service bottlenecks.
